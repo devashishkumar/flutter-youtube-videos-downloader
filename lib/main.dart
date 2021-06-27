@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class VideoLink extends StatefulWidget {
-  @override
-  _VideoLinkState createState() => _VideoLinkState();
-}
-class _VideoLinkState extends State<VideoLink> {
+// class VideoLink extends StatefulWidget {
+//   @override
+//   _VideoLinkState createState() => _VideoLinkState();
+// }
+class VideoLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
